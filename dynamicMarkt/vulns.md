@@ -1,5 +1,5 @@
 # Multiple Vulnerabilities in dynamicMarkt Software
-I was unable to contact the vendor. The homepage returns 500 Internal Server Error for at least 10 month now.
+I was unable to contact the vendor. The [homepage](http://dynamicmarkt.de/) returns 500 Internal Server Error for at least 10 month now.
 
 You should know, that the admin backend password is stored in plaintext inside the database!
 The user passwords are hashed using MD5. dynamicMarkt sets a weak 7 char long password by default.
