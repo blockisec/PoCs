@@ -1,16 +1,16 @@
-# CVE-XXXX-XXXXX (Filerun)
+# CVE-2022-30469 - SQL-Injection (Afian Filerun)
 
-**CVE-ID:** CVE-2022-XXXXX
+**CVE-ID:** CVE-2022-30469
 
 **Affected Product:** Filerun
 
-**Affected Versions:** Update 20220202
+**Affected Versions:** Update 20220202 (others untested)
 
 **Vulnerability:** SQL-Injection
 
 **Vendor URL:** [https://filerun.com/](https://filerun.com/)
 
-**Status:** Fixed (silently)
+**Status:** Fixed in FileRun Update 20220519 (silently)
 
 **Severity:** High
 
