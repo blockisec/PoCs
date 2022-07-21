@@ -22,7 +22,7 @@
 
 The application does not properly filter the `path` JSON parameter in the `/api/v1/users/file/delete` endpoint.
 
-This results in arbitrary file deletion.
+This results in arbitrary file deletion (unauthenticated).
 
 
 ```
