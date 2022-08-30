@@ -1,4 +1,4 @@
-# Peppermint-Lab  - Path Traversal
+# Peppermint-Lab - Path Traversal
 
 
 **CVE-ID:** CVE-2022-36538
