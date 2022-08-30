@@ -1,7 +1,7 @@
 # Peppermint-Lab  - Path Traversal
 
 
-**CVE-ID:** -
+**CVE-ID:** CVE-2022-36538
 
 
 **Vendor:** [Peppermint-Lab](https://peppermint.sh)
