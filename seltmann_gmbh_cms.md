@@ -23,7 +23,7 @@
 The `id` parameter of the `/index.php` endpoint in the Content Management System of the *Seltmann GmbH* is vulnerable to SQL-Injection.
 
 ```http
-GET /index.php?controller=index&function=change_lang_redirect&id=1%22&url=/promotiontools HTTP/2
+GET /index.php?controller=index&function=change_lang_redirect&id=1%22&url=something HTTP/2
 Host: localhost
 [...]
 ```
