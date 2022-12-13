@@ -1,4 +1,4 @@
-# Seltmann GmbH - Content Management System 6 - SQL-Injection
+# Seltmann GmbH / Content Management System 6 - SQL-Injection
 
 
 **CVE-ID:** -
